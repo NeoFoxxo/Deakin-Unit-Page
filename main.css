@@ -16,4 +16,10 @@ p {
   font-family: Arial
 }
 
+.site-header {
+  background-color: darkcyan;
+  text-align: right;
+  padding: 0.5em;
+}
+
 
