@@ -22,4 +22,21 @@ p {
   padding: 0.5em;
 }
 
+.page-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5em;
+  padding: 1em;
+}
 
+.homepage-section {
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1em;
+}
+
+.homepage-section h2 {
+  margin-top: 0;
+  font-size: 1.25rem;
+}
